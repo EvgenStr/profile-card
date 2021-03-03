@@ -1,6 +1,13 @@
-
-.main-content{
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
-
+}
+.profile-card {
+  width: 25%;
+  height: 25%;
+  background-color: rgb(36, 36, 36);
 }
