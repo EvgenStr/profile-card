@@ -68,12 +68,8 @@ hr {
 .followers-images {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 .follower-image {
-  /* width: 75px;
-  height: 75px;
-  border-radius: 50%; */
   flex-wrap: nowrap;
   overflow: hidden;
   box-sizing: border-box;
@@ -85,4 +81,21 @@ hr {
   object-fit: cover;
   object-position: center;
   /* max-width: 100%; */
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icons >div> img{
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+.link{
+  display: block;
+  background-image: url('../icons/facebook.svg');
+  width: 50px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
