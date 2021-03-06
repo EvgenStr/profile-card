@@ -19,7 +19,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 300px;
+  /* width: 300px; */
   /* height: 40%; */
   background-color: rgb(36, 36, 36);
   /* position: relative; */
@@ -65,19 +65,24 @@ hr {
 }
 .user-location {
 }
-.followers-images{
+.followers-images {
   display: flex;
   justify-content: center;
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-.follower-image{
-  max-width: 20%;
-  border-radius: 50%;
+.follower-image {
+  /* width: 75px;
+  height: 75px;
+  border-radius: 50%; */
   flex-wrap: nowrap;
   overflow: hidden;
+  box-sizing: border-box;
 }
-.follower-image > img{
+.follower-image > img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
   object-fit: cover;
   object-position: center;
-  width: 100%;
+  /* max-width: 100%; */
 }
